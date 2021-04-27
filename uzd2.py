@@ -5,3 +5,10 @@ un izvada uz ekrāna sveicienu sekojošā formātā:
 Ja ievadīts nav jūsu vards, tiek izdrukāts teksts - Uzredzēšanos!
 Pārbaudiet programmas darbību ar dažādiem ievaddatiem.
 """
+
+vards=str(input("Ievadi vārdu: "))
+mans_v="Marta"
+if vards== mans_v:
+    print(f"labrīt, {vards}, pirmdienā!")
+else:
+    print("Uz redzēšanos!")
