@@ -7,6 +7,6 @@ Pārbaudiet programmas darbību ar dažādiem ievaddatiem.
 from math import pi
 radiuss=float(input("ievadi rādiusu: "))
 garums=2*pi*radiuss
-laukums=pi*radiuss*2*2
+laukums=pi*radiuss**2
 print(f'riņķa līnijas garums ir {garums}')
 print(f'riņķa līnijas laukums ir {laukums}')
